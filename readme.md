@@ -1,6 +1,6 @@
 # App de Filmes - NetflixClone 🎥🍿
 
-Este é um projeto de um aplicativo para visualização de filmes, criado utilizando Kotlin e integrado com o Firebase para autenticação de usuários e armazenamento de dados. O objetivo deste projeto é fornecer uma experiência semelhante à do Netflix, permitindo aos usuários ver informações sobre filmes e assistir trailers.um aplicativo Android que tem como objetivo exibir uma lista de filmes com suas respectivas informações.
+Este é um projeto de um aplicativo para visualização de filmes, criado utilizando Kotlin e integrado com o Firebase para autenticação de usuários e armazenamento de dados. O objetivo deste projeto é fornecer uma experiência semelhante à do Netflix, permitindo aos usuários ver informações sobre filmes.
 
 <div style="display:flex">
     <img src="AppFilmes-Screenshots/TelaCarregamento.jpg" width="18%" height="18%" style="margin-right:25px">
@@ -90,12 +90,44 @@ Foi criado um header principal no aplicativo para melhorar a experiência do usu
 
 Foi implementada a funcionalidade de logout para possibilitar que o usuário saia do aplicativo.
 
-## Lista Vertical de Categorias 📜
+### Construção de uma lista de vertical com Categorias 📜
+Foi construída uma lista vertical de categorias para organizar os filmes disponíveis no app.
 
-O aplicativo utiliza uma lista vertical de categorias para exibir uma lista dos gêneros de filmes disponíveis no aplicativo.
+### Construção de lista horizontal de filmes dentro de cada Categoria 🎞️
+Dentro de cada categoria, foi criada uma lista horizontal de filmes para que o usuário possa navegar de forma intuitiva.
 
-## Lista Horizontal de Filmes 🎞️
+### Criação do Adapter 🛠️
+Foi criado um Adapter personalizado para a lista de filmes e para a lista de categorias.
 
-O aplicativo utiliza uma lista horizontal de filmes para exibir uma lista de filmes de cada categoria.
+### Criação do item de lista - Lista de Categorias 🎥📊
+Foi criado um layout personalizado para cada item da lista de categorias.
 
+### Validação da lista vertical de categorias ✅
+Foi feita uma validação para garantir que a lista de categorias seja carregada corretamente.
 
+### Configuração da lista horizontal com Filmes ⚙️🎬
+Foi realizada a configuração da lista horizontal de filmes para que os filmes sejam exibidos corretamente.
+
+### Validação da lista de filmes com dados fakes ✅
+Foi feita uma validação para garantir que a lista de filmes seja carregada corretamente com dados falsos.
+
+### Consumindo os dados da API de Filmes 🌐🎥
+Foi feita a integração com uma API de filmes para consumir os dados reais de filmes.
+
+### Configurando o Retrofit ⚙️🔗
+Foi configurado o Retrofit para realizar as requisições HTTP necessárias para obter os dados da API.
+
+### Configurando e utilizando o Glide para baixar e renderizar imagens vindas de urls 🌐🖼️
+Foi configurado o Glide para baixar e renderizar as imagens dos filmes vindas de URLs.
+
+### Definindo eventos de click no recyclerView da lista de filmes através do próprio Adapter 🎬🖱️
+Foram definidos eventos de click no recyclerView da lista de filmes através do próprio Adapter para que o usuário possa interagir com os filmes.
+
+### Criação do layout de detalhes do filme 🎬📝
+Foi criado um layout personalizado para exibir os detalhes de cada filme selecionado pelo usuário.
+
+### Bloqueando a rotação da tela em algum layout 🚫🔄
+Foi bloqueada a rotação da tela em determinado layout para evitar problemas de usabilidade.
+
+### Passando dados entre telas com o putExtra (Intent) 📩📤
+Foi utilizado o putExtra (Intent) para passar dados entre as telas do app.
