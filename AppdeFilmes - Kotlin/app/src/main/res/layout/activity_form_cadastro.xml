@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.FormCadastro">
+
+    <LinearLayout
+        android:id="@+id/containerHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App de Filmes"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AJUDA"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50dp"
+            />
+
+        <TextView
+            android:id="@+id/txtEntrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTRAR"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="30dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tudo pronto para\nassistir?"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe seu email para criar ou acessa sua\nconta."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/red"
+        app:boxStrokeColor="@color/blue"
+        app:hintTextColor="@color/light_gray"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:textCursorDrawable="@drawable/cursor_edittext_cadastro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/red"
+        app:boxStrokeColor="@color/blue"
+        app:hintTextColor="@color/light_gray"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"
+            android:inputType="numberPassword"
+            android:padding="20dp"
+            android:textCursorDrawable="@drawable/cursor_edittext_cadastro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btVamosLa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VAMOS LÁ"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red"
+        />
+
+    <Button
+        android:id="@+id/btContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

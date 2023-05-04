@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47340090387",
+    "project_id": "app-de-filmes---netflix-clone",
+    "storage_bucket": "app-de-filmes---netflix-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47340090387:android:a56dbd1a2a4f22c44bfbe6",
+        "android_client_info": {
+          "package_name": "com.thiago.appdefilmesclonenetflix_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47340090387-hrla4f4hm16mqugl996httntgssg40rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCybAdS1PZ-ObRQq-UFwzgdsr6B_v8g1YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47340090387-hrla4f4hm16mqugl996httntgssg40rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
